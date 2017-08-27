@@ -17,7 +17,7 @@ import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
 
-public class MainActivity extends AppCompatActivity {
+public class    MainActivity extends AppCompatActivity {
     public static String DEVICE_NAME = "HC-05";
     private final UUID PORT_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     private BluetoothDevice device;
